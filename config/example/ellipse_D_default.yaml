@@ -100,7 +100,7 @@ aidingAssignment:
   # 6 Synchronization is done using SYNC_OUT_A pin
   # 7 Synchronization is done using SYNC_OUT_B pin
   gnss1ModuleSyncAssignment: 5
-  # RTCM input port assignment for Ellipse-N DGPS (see gnss1ModulePortAssignment for values)
+  # RTCM input port assignment for Ellipse-D DGPS (see gnss1ModulePortAssignment for values)
   rtcmPortAssignment: 255
   # Odometer module pin assignment
   # 0 Odometer is disabled
@@ -147,7 +147,7 @@ gnss:
   # 104 Used on Ellipse-E to setup a connection to ublox in read only mode.
   # 106 Used on Ellipse-E to setup a connection to Novatel receiver in read only mode.
   # 107 Used on Ellipse-D by default
-  gnss_model_id: 101
+  gnss_model_id: 107
 
   #GNSS primary antenna lever arm in IMU X axis (m)
   primaryLeverArmX: 0
